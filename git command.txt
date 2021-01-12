@@ -3,3 +3,6 @@ git status --- показывает скатус репозитория
 git add <file> --- добавить файл в репозиторий для отслеживания
 git rm --cached <file> --- удалить файл из репозитория
 git commit -m "name of commit" --- применение изменений в файле
+git branch --- показывает ветку репозитория
+git branch test --- создать ветку "test"
+git branch -D test --- удалить ветку "test"
