@@ -1,1 +1,1 @@
-sersefasdfs
+print ('text')
