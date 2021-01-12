@@ -6,3 +6,8 @@ git commit -m "name of commit" --- применение изменений в ф
 git branch --- показывает ветку репозитория
 git branch test --- создать ветку "test"
 git branch -D test --- удалить ветку "test"
+git checkout test --- переключится на ветку "test"
+git checkout -b test --- создать ветку "test" и сразу на нее переключится
+git merge test --- совмещает ветки "test" и master
+git remote add origin http://github.com/castor1386/vs-code-course.git - привязать локальный репозиторий к удаленному, на сервере github
+git push -u origin master --- залить мастер ветку на githab 
